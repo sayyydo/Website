@@ -1,0 +1,118 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	grid-gap: 10px;
+	height: 20vh;
+	margin-bottom: 10px;
+}
+
+.logo {
+	border: 3px white solid;
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: contain;
+}
+
+.menu {
+	padding: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-gap: 10px;
+	border: 2px white solid;
+	padding: 10px;
+	height: 250vh;
+	margin-bottom: 10px;
+}
+
+.box {
+	border: 2px white solid;
+}
+
+.image1 {
+	background-image: url(../images/11.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.image2 {
+	background-image: url(../images/22.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.image3 {
+	background-image: url(../images/33.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.image4 {
+	background-image: url(../images/44.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.image5 {
+	background-image: url(../images/55.jpg);
+	background-position: center;
+	background-size: contian;
+}
+
+.image6 {
+	background-image: url(../images/66.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+.description {
+	padding: 10px;
+	color: white;
+	font-family: Bebas Neue;
+}
+
+p {
+	text-align: center;
+	font-size: 50px;
+}
+
+h1 {
+	text-align: left;
+	color: white;
+}
+
+.footer {
+	border: 2px white solid;
+	height: 15vh;
+	padding: 10px;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 20px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	padding: 10px;	
+	border: 2px white solid;
+	color: white;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+a {
+	text-decoration: none;
+}
